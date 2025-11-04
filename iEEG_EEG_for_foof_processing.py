@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 @author: Sneha Ray, UCSF
 """
@@ -111,4 +110,5 @@ for specfilename in mat_files[0:300]:
     try:
         process_directory(save_dir=save_dir, specdir=specdir, specfilename=specfilename, windowlength=60)
     except Exception as e:
+
         print(f"Failed processing {specfilename}: {e}")
