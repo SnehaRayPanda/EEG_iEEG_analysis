@@ -1,4 +1,4 @@
-**This repository provides a small, practical toolkit for EEG/ECoG analysis:**
+**This repository provides a small, practical toolkit for EEG/iEEG analysis:**
 
 EEG_extract_feature.m: Segment-wise EEG features (absolute/relative bandpower, entropy, kurtosis, skewness) →  (EEGLAB-style input)
 
