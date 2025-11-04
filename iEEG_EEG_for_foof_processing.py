@@ -1,7 +1,6 @@
 """
 @author: Sneha Ray, UCSF
 """
-
 import os
 import numpy as np
 import scipy.io
@@ -112,3 +111,4 @@ for specfilename in mat_files[0:300]:
     except Exception as e:
 
         print(f"Failed processing {specfilename}: {e}")
+
