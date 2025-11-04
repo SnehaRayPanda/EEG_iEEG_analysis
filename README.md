@@ -1,10 +1,7 @@
 **This repository provides a small, practical toolkit for EEG/ECoG analysis:**
 
-Segment-wise EEG features (absolute/relative bandpower, entropy, kurtosis, skewness)
-→ EEG_extract_feature.m (EEGLAB-style input)
+EEG_extract_feature.m: Segment-wise EEG features (absolute/relative bandpower, entropy, kurtosis, skewness) →  (EEGLAB-style input)
 
-Multitaper time–frequency analysis per channel
-→ multitaper_timefreq.m
+multitaper_timefreq.m: Multitaper time–frequency analysis per channel
 
-Aperiodic (“1/f”) component estimation (offset & exponent) from the power spectrum per channel
-→ eeg_aperiodic_offset_exponent.m
+eeg_aperiodic_offset_exponent.m: Aperiodic (“1/f”) component estimation (offset & exponent) from the power spectrum per channel
